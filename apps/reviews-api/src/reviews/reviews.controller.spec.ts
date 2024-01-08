@@ -44,7 +44,7 @@ describe('ReviewsController', () => {
 					id: '1',
 					reviewerId: user1Id,
 					companyId: company1Id,
-					createdOn: '2020-01-01T00:00:00.000Z',
+					createdOn: '2020-01-00T00:00:00.000Z',
 				},
 			}),
 			prisma.review.create({
@@ -52,7 +52,7 @@ describe('ReviewsController', () => {
 					id: '3',
 					reviewerId: user2Id,
 					companyId: company1Id,
-					createdOn: '2022-01-01T00:00:00.000Z',
+					createdOn: '2022-01-00T00:00:00.000Z',
 				},
 			}),
 			prisma.review.create({
@@ -60,7 +60,7 @@ describe('ReviewsController', () => {
 					id: '2',
 					reviewerId: user2Id,
 					companyId: company2Id,
-					createdOn: '2021-01-01T00:00:00.000Z',
+					createdOn: '2021-01-00T00:00:00.000Z',
 				},
 			}),
 		]);
@@ -81,13 +81,33 @@ describe('ReviewsController', () => {
 	});
 
 	describe('getReviews()', () => {
-		it.todo('should fetch all reviews');
+		it('should fetch all reviews', async () => {
+			const response = await request(app.getHttpServer()).get('/reviews');
+			expect(response.status).toBe(200);
+			expect(response.body.reviews.length).toBe(3);
+		});
 
-		it.todo('should fetch reviews in descending order by date');
+		it('should fetch reviews in descending order by date', async () => {
+			const response = await request(app.getHttpServer()).get('/reviews');
+			expect(response.status).toBe(200);
+			expect(response.body.reviews.map((review) => review.id)).toEqual(['3', '2', '1']);
+		});
 
-		it.todo('should include user data with review');
+		it('should include user data with review', async () => {
+			const response = await request(app.getHttpServer()).get('/reviews');
+			expect(response.status).toBe(200);
+			expect(response.body.reviews.every((review) => review.user.id === review.reviewerId)).toBe(
+				true,
+			);
+		});
 
-		it.todo('should include company data with review');
+		it('should include company data with review', async () => {
+			const response = await request(app.getHttpServer()).get('/reviews');
+			console.log(response.body.reviews);
+			expect(response.body.reviews.every((review) => review.company.id === review.companyId)).toBe(
+				true,
+			);
+		});
 
 		// Feel free to add any additional tests you think are necessary
 	});
