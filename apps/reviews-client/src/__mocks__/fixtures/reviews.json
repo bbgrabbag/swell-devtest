@@ -1,0 +1,92 @@
+[
+	{
+		"id": "0912db1b-29e6-480d-abb4-29b6dfe94bc5",
+		"reviewerId": "99bde094-7cc0-4b48-8303-140e51dd9226",
+		"companyId": "1cee142b-e4dd-4bc4-b5be-2b985c465edc",
+		"reviewText": "Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede. Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem. Fusce consequat. Nulla nisl. Nunc nisl.",
+		"rating": 5,
+		"createdOn": "2021-01-11T14:42:51Z",
+		"company": {
+			"id": "1cee142b-e4dd-4bc4-b5be-2b985c465edc",
+			"name": "McLaughlin-Leffler"
+		},
+		"user": {
+			"id": "99bde094-7cc0-4b48-8303-140e51dd9226",
+			"firstName": "Jorgan",
+			"lastName": "Inkster",
+			"email": "jinkster1k@rakuten.co.jp"
+		}
+	},
+	{
+		"id": "e338d742-ff83-41cc-8c81-88d072930d33",
+		"reviewerId": "5812e509-82ff-4a7e-8c70-0652fb954ea9",
+		"companyId": "f82b6429-8839-4a46-a23e-3af34e64aaec",
+		"reviewText": "Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem. Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat. Praesent blandit. Nam nulla.",
+		"rating": 4,
+		"createdOn": "2021-01-08T14:39:10Z",
+		"company": {
+			"id": "f82b6429-8839-4a46-a23e-3af34e64aaec",
+			"name": "Schowalter, Roob and Fritsch"
+		},
+		"user": {
+			"id": "5812e509-82ff-4a7e-8c70-0652fb954ea9",
+			"firstName": "Dante",
+			"lastName": "Eccleshall",
+			"email": "deccleshall26@barnesandnoble.com"
+		}
+	},
+	{
+		"id": "78628f3e-3f32-4465-83a5-fa664ea4f8a9",
+		"reviewerId": "33184ec3-b9cb-48e6-9189-763d317b8ce6",
+		"companyId": "356110d6-57ef-44cf-9c00-530411759c6f",
+		"reviewText": "Proin risus. Praesent lectus. Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis. Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus. Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis.",
+		"rating": 5,
+		"createdOn": "2021-01-05T16:21:57Z",
+		"company": {
+			"id": "356110d6-57ef-44cf-9c00-530411759c6f",
+			"name": "Braun, Green and Mohr"
+		},
+		"user": {
+			"id": "33184ec3-b9cb-48e6-9189-763d317b8ce6",
+			"firstName": "Kimberli",
+			"lastName": "Barwick",
+			"email": "kbarwick1p@altervista.org"
+		}
+	},
+	{
+		"id": "a9057546-f39b-4100-b25d-0d2cb54071f7",
+		"reviewerId": "9ec2997b-8227-4432-a81f-5d61f2004ab9",
+		"companyId": "c93c5339-1d1c-48ca-a91f-a9efa164dcb5",
+		"reviewText": "Morbi quis tortor id nulla ultrices aliquet. Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui. Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc.",
+		"rating": 1,
+		"createdOn": "2021-01-05T00:33:49Z",
+		"company": {
+			"id": "c93c5339-1d1c-48ca-a91f-a9efa164dcb5",
+			"name": "Ortiz, Schaden and Lebsack"
+		},
+		"user": {
+			"id": "9ec2997b-8227-4432-a81f-5d61f2004ab9",
+			"firstName": "Rodd",
+			"lastName": "Drinan",
+			"email": "rdrinan1c@bloglines.com"
+		}
+	},
+	{
+		"id": "3fafc606-a44e-43fe-9c04-e1a3ea507a94",
+		"reviewerId": "5fbbaa1c-d016-42e1-9c2c-9ca6b8f35168",
+		"companyId": "3b0c6dfb-a0b0-4c42-a404-b43b33f39c4d",
+		"reviewText": "Nulla facilisi. Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque. Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus. Phasellus in felis. Donec semper sapien a libero. Nam dui.",
+		"rating": 2,
+		"createdOn": "2021-01-04T15:07:22Z",
+		"company": {
+			"id": "3b0c6dfb-a0b0-4c42-a404-b43b33f39c4d",
+			"name": "Schowalter LLC"
+		},
+		"user": {
+			"id": "5fbbaa1c-d016-42e1-9c2c-9ca6b8f35168",
+			"firstName": "Benita",
+			"lastName": "Broy",
+			"email": "bbroy1e@huffingtonpost.com"
+		}
+	}
+]

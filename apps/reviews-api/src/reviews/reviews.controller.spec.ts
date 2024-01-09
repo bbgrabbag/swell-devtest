@@ -103,7 +103,6 @@ describe('ReviewsController', () => {
 
 		it('should include company data with review', async () => {
 			const response = await request(app.getHttpServer()).get('/reviews');
-			console.log(response.body.reviews);
 			expect(response.body.reviews.every((review) => review.company.id === review.companyId)).toBe(
 				true,
 			);
